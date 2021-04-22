@@ -27,7 +27,7 @@ app.get('/data', (req, res) => {
 
     const data2 = result.data.filter(function(item) { return item.currency === 'EOS' && item.price > 2.8 })
     console.log(data2[0]['price']);
-    res.json(data2[0]['price']);
+    res.json(`${data2[0]['currency']} ${data2[0]['price']}`);
 
     if(data2[0]['price'] > 6)
     {

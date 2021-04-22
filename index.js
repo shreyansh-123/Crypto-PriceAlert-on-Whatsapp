@@ -29,7 +29,7 @@ app.get('/data', (req, res) => {
     console.log(data2[0]['price']);
     res.json(`${data2[0]['currency']} ${data2[0]['price']}`);
 
-    if(data2[0]['price'] > 6)
+    if(data2[0]['price'] > 7)
     {
     client.messages.create({
         from: 'whatsapp:+14155238886',

@@ -39,6 +39,7 @@ app.get('/data', (req, res) => {
       
       .catch(er => (console.log(er)));
     }
+    
 
     }).catch((err) => {
 

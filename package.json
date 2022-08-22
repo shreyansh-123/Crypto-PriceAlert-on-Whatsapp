@@ -1,0 +1,24 @@
+{
+  "name": "gdar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ccxt": "^1.44.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "gdax": "^0.9.0",
+    "mongoose": "^5.12.3",
+    "node-wifi": "^2.0.14",
+    "node-wifi-scanner": "^1.1.2-np",
+    "nodemon": "^2.0.7",
+    "twilio": "^3.30.0"
+  }
+}
